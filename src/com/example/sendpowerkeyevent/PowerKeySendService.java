@@ -32,7 +32,7 @@ public class PowerKeySendService extends Service {
 		}
 		AlarmManager alarmManager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
 		PendingIntent pIntent = PendingIntent.getBroadcast(this, 0, new Intent("android.example.action.power_key"),  0);
-		alarmManager.setRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP, 10000, 10000, pIntent);
+		alarmManager.setRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP, 10000, 120000, pIntent);
 	}
 	
 	
