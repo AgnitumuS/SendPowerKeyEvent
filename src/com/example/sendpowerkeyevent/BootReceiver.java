@@ -14,9 +14,4 @@ public class BootReceiver extends BroadcastReceiver {
 	}
 
 }
-<<<<<<< HEAD
 
-
-
-=======
->>>>>>> origin/master
